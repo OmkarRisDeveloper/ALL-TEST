@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Questionnaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EXAM--BY-TEST-OMKAR</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#" onclick="loadQuestions('NEET')">NEET</a></li>
+                    <li><a href="#" onclick="loadQuestions('JEE')">JEE</a></li>
+                    <li><a href="#" onclick="loadQuestions('BPSC')">BPSC</a></li>
+                    <li><a href="#" onclick="loadQuestions('SSC')">SSC</a></li>
+                    <li><a href="#" onclick="loadQuestions('UPSC')">UPSC</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="questionnaire">
+            <h1>Select an Exam  from Nav Bar to Start</h1>
+            <div class="exam-description" id="NEET">
+                <h2>NEET</h2>
+                <p>The National Eligibility cum Entrance Test (NEET) is conducted for admission to medical and dental courses across India. It includes subjects like Physics, Chemistry, and Biology.</p>
+            </div>
+            <div class="exam-description" id="JEE">
+                <h2>JEE (Joint Entrance Examination)</h2>
+                <p>JEE is conducted for admission to various undergraduate engineering programs in India. It consists of two exams - JEE Main and JEE Advanced.</p>
+            </div>
+            <div class="exam-description" id="BPSC">
+                <h2>BPSC (Bihar Public Service Commission)</h2>
+                <p>BPSC exams are conducted for various administrative positions in the Bihar state government. It includes subjects like General Studies, History, and Political Science.</p>
+            </div>
+            <div class="exam-description" id="SSC">
+                <h2>SSC (Staff Selection Commission)</h2>
+                <p>SSC conducts exams for recruitment to various government departments and offices in India. It includes exams like SSC CGL, SSC CHSL, and others.</p>
+            </div>
+            <div class="exam-description" id="UPSC">
+                <h2>UPSC (Union Public Service Commission)</h2>
+                <p>UPSC conducts civil service exams for recruitment to administrative positions in the Indian government. It includes subjects like History, Geography, and General Studies.</p>
+            </div>
+        </section>
+    </main>
+    <br><br><br><br><br><br><br><br><br>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 OMKAR NATH All rights reserved.</p>
+        </div>
+        
+    </footer>
+    <script src="questions.js"></script>
+</body>
+</html>
